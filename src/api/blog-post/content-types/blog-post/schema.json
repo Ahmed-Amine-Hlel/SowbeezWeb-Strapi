@@ -31,6 +31,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "contents": {
+      "type": "blocks",
+      "required": true
     }
   }
 }
