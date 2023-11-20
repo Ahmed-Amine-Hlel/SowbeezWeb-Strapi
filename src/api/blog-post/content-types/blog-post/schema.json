@@ -35,6 +35,11 @@
     "contents": {
       "type": "blocks",
       "required": true
+    },
+    "isVisibleOnBlog": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
