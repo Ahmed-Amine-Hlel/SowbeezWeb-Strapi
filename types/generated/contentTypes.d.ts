@@ -382,6 +382,8 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
     isVisibleOnBlog: Attribute.Boolean &
       Attribute.Required &
       Attribute.DefaultTo<true>;
+    slug: Attribute.UID<'api::blog-post.blog-post', 'title'> &
+      Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
